@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/gallery.min.css">
+    <link rel="stylesheet" href="assets/css/gallery.theme.css">
+
+    <title>Quinta de Ouro</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Quinta de Ouro</a>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Início</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Galeria</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== WHATSAPP FIXED BUTTON =====-->
+        <a href="https://api.whatsapp.com/send?l=pt&amp;phone=55041999999">
+            <img src="https://i.imgur.com/ryESuZ5.png" class="whatsapp__img-fixed" data-selector="img">
+        </a>
+        <!--===== HOME =====-->
+        <section class="home" id="home">
+            <div class="home__container bd-grid">
+                <div class="home__img">
+                    <!-- <img src="assets/img/img1.png" alt="" data-speed="-2" class="move"> -->
+                    <img src="assets/img/img2.png" alt="" data-speed="2" class="move">
+                    <!-- <img src="assets/img/img3.png" alt="" data-speed="2" class="move">
+                        <img src="assets/img/img4.png" alt="" data-speed="-2" class="move"> 
+                        <img src="assets/img/img5.png" alt="" data-speed="-2" class="move"> -->
+                    <img src="assets/img/img6.png" alt="" data-speed="-2" class="move">
+                </div>
+
+                <div class="home__data">
+                    <h1 class="home__title">Quinta<br> De Ouro</h1>
+                    <p class="home__description">O melhor futebol de Espera Feliz <br> na sua quinta-feira.</p>
+                    <a href="#about" class="home__button">Jogar</a>
+                    <a href="#gallery" class="home__button button-about">Assitir</a>
+                </div>
+            </div>
+        </section>
+        <!--===== SOBRE =====-->
+        <section class="about" id="about">
+            <div class="about__container bd-grid">
+                <div class="about__data">
+                    <h1 class="about__title">Bora jogar:</h1>
+                    <p class="about__description">Pelada organizada por Eluízio Bilheiro <br> há mais de 15 anos
+                        reunindo amigos <br> e fazendo aquela resenha de respeito <br> com muito churrasco e cerveja,
+                        <br>todas as quintas-feira.
+                    </p>
+                    <p class="about__description">Em seu local de eventos: Espaço Ouro.</p>
+                    <div class="about__wrap">
+                        <a href="#about" class="about__button">Jogar <img src="assets/img/img6.png" alt=""
+                                data-speed="-2"></a>
+                    </div>
+                </div>
+
+                <div class="about__img">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0"
+                                marginwidth="0"
+                                src="https://maps.google.com/maps?width=469&amp;height=353&amp;hl=en&amp;q=espaço ouro&amp;t=k&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                            </iframe>
+                            <a href="https://piratebay-proxys.com/">Pirate proxy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===== GALLERY =====-->
+        <section class="gallery" id="gallery">
+            <div class="gallery__container bd-grid">
+                <div class="gallery__data">
+                    <h1 class="gallery__title">Bora assistir:</h1>
+                    <p class="gallery__description">Fotos, videos & <br> transmissões </p>
+                    <p class="gallery__description">Acesse todas as fotos e videos <br> tirados nas partidas de futebol
+                        <br>e nas resenhas. <br>+ Transmissões em tempo real.
+                    </p>
+                </div>
+
+                <div class="gallery autoplay items-6">
+                    <div id="item-1" class="control-operator"></div>
+                    <div id="item-2" class="control-operator"></div>
+                    <div id="item-3" class="control-operator"></div>
+                    <div id="item-4" class="control-operator"></div>
+                    <div id="item-5" class="control-operator"></div>
+                    <div id="item-6" class="control-operator"></div>
+
+                    <figure class="item">
+                        <img class="gallery__img" src="./assets/img/reviews/review1.jpeg" />
+                    </figure>
+                    <figure class="item">
+                        <img class="gallery__img" src="./assets/img/reviews/review2.jpg" />
+                    </figure>
+                    <figure class="item">
+                        <img class="gallery__img" src="./assets/img/reviews/review3.jpg" />
+                    </figure>
+                    <figure class="item">
+                        <img class="gallery__img" src="./assets/img/reviews/review4.jpg" />
+                    </figure>
+                    <figure class="item">
+                        <img class="gallery__img" src="./assets/img/reviews/review5.jpg" />
+                    </figure>
+                    <figure class="item ">
+                        <img class="gallery__img" src="./assets/img/reviews/review6.jpg" />
+                    </figure>
+
+                    <div class="controls">
+                        <a href="#item-1" class="control-button">.</a>
+                        <a href="#item-2" class="control-button">.</a>
+                        <a href="#item-3" class="control-button">.</a>
+                        <a href="#item-4" class="control-button">.</a>
+                        <a href="#item-5" class="control-button">.</a>
+                        <a href="#item-6" class="control-button">.</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </section>
+        <!-- ===== CONTATO =====-->
+        <section class="contact" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <p class="contact__title">Desenvolvido por: <br> <a href="https://api.whatsapp.com/send?phone=5532985095768&text=Ol%C3%A1%2C%20Carlos%20Roberto.">Carlos Roberto</a></p>
+                    <p class="contact__title">Organização: <br> <a href="https://api.whatsapp.com/send?phone=553299738953&text=Ol%C3%A1%2C%20Elu%C3%ADzio%20Bilheiro.">Eluízio Bilheiro</a> </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== GSAP =====-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
