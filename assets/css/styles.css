@@ -211,7 +211,7 @@ img{
   background-color: var(--first-color-dark);
 }
 .about__container{
-  height: calc(140vh - var(--header-height));
+  height: calc(170vh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -330,12 +330,12 @@ img{
 
 .gallery__title{
   font-size: var(--medium-font-size);
-  line-height: 3.5;
+  line-height: 6;
 }
 
 .gallery__description{
-  margin-bottom: 2rem;
-  line-height: 1;
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
   font-size: var(--medium-font-size);
 }
 
