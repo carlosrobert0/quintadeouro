@@ -13,28 +13,26 @@
 */
 .gallery {
   position: relative;
+  flex: 1;
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery .item {
-  height: 400px;
-  width: 593px;
-  margin-top: 108px;
-  margin-left: 40px;
+  height: 500px;
+  width: 100%;
+  margin-left: 0px;
   overflow: hidden;
   text-align: center;
 }
 
 .gallery .controls {
   position: absolute;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left: 41px;
-  width: 88%;
-  text-align: center;
-  margin-bottom: 192px;
-  height: 50px;
+  top: 172px;
+  height: 150px;
+  background-color: red;
   background-color: transparent;
 }
 
