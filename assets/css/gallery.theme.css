@@ -13,7 +13,6 @@
 */
 .gallery {
   position: relative;
-  flex: 1;
   margin-top: -10px;
   display: flex;
   align-items: center;
@@ -21,26 +20,58 @@
 }
 
 .gallery .item {
-  height: 500px;
-  width: 100%;
   margin-left: 0px;
+  margin-right: 0px;
   overflow: hidden;
   text-align: center;
 }
 
 .gallery .controls {
   position: absolute;
-  top: 172px;
+  bottom: -14px;
   height: 150px;
-  background-color: red;
   background-color: transparent;
 }
 
 .gallery .control-button {
   display: inline-block;
   margin: 0 .02em;
-  font-size: 3em;
+  font-size: 5em;
   text-align: center;
   text-decoration: none;
   transition: color .1s;
+}
+
+@media screen and (min-width: 768px){
+  .gallery {
+    position: relative;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .gallery .item {
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .gallery .controls {
+    position: absolute;
+    bottom: 144px;
+    height: 150px;
+    margin-right: -131px;
+    background-color: transparent;
+  }
+  
+  .gallery .control-button {
+    display: inline-block;
+    margin: 0 .02em;
+    font-size: 5em;
+    text-align: center;
+    text-decoration: none;
+    transition: color .1s;
+  }
 }
