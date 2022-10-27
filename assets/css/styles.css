@@ -211,7 +211,7 @@ img{
   background-color: var(--first-color-dark);
 }
 .about__container{
-  height: calc(170vh - var(--header-height));
+  height: calc(155vh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -315,7 +315,7 @@ img{
   background-color: var(--white-color);
 }
 .gallery__container{
-  height: calc(100vh - var(--header-height));
+  height: calc(130vh - var(--header-height));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -388,7 +388,7 @@ img{
   height: calc(20vh - var(--header-height));
   display: flex;
   width: 100%;
-  align-items: end;
+  align-items: center;
   justify-content: center;
 }
 
