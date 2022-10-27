@@ -325,11 +325,11 @@ img{
 
 .gallery__data{
   color: var(--first-color-dark);
-  margin-top: 1.5rem;
 }
 
 .gallery__title{
   font-size: var(--medium-font-size);
+  line-height: 6;
 }
 
 .gallery__description{
