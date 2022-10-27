@@ -330,7 +330,6 @@ img{
 
 .gallery__title{
   font-size: var(--medium-font-size);
-  line-height: 6;
 }
 
 .gallery__description{
